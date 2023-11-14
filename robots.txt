@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://frozerm.github.io//sitemap.xml
+Sitemap: https://frozerm.github.io/sitemap.xml
