@@ -1,0 +1,149 @@
+
+header {
+  width:100%;
+  height:15%;
+  text-align:center;
+  background-color:rgba(255, 255, 255, 0.247);
+  top: 1%;
+  position: absolute;
+  transform: translateY(-9px);
+  box-shadow: 0 0 18px 0 rgba(255, 255, 255, 0.473);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F1F1;
+  font-family: "GOST type B";
+  font-size: 20px;
+	background-image: linear-gradient(-225deg, #1a187a 0%, #ff0000 100%);
+}
+
+.section-prices {
+  padding: 17% ;
+}
+.section-prices .section-header {
+  background-color: rgb(255, 255, 255);
+  padding: 35px 110px;
+  text-align: center;
+  color: #555;
+  box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.74);
+  border-radius: 50px;
+  
+}
+
+.list-boxs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-boxs .card {
+  width: 32%;
+  text-align: center;
+
+
+}
+
+.list-boxs .card .head,
+.list-boxs .card .body {
+  background-color: rgb(255, 220, 242);
+  padding: 20px 15px;
+}
+
+
+.list-boxs .card .head {
+  color: #333;
+  font-size: 30px;
+  text-transform: uppercase;
+  transform: translateY(50px);
+  transition: transform .3s linear;
+  border-bottom: 1 px solid #f2f2f275;
+
+}
+.list-boxs .card:hover .head {
+  transform: translateY(0);
+
+}
+.list-boxs .starter .ticket {
+  background-color: var(--color-green);
+}
+.list-boxs .standard .ticket {
+  background-color: var(--color-blue);
+}
+.list-boxs .premium .ticket {
+  background-color: var(--color-orange);
+}
+
+.list-boxs .card .body {
+  transform: translateY(-30px);
+  transition: transform .3s linear;
+}
+.list-boxs .card:hover .body {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+
+}
+.list-boxs .card .btn {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: Impact;
+  font-weight: 500;
+  min-width: 160px;
+  border: 1px solid #555;
+  background-color: #555;
+  color: #333;
+  cursor: pointer;
+  
+}
+
+.list-boxs .starter .btn {
+  background: rgba(238, 130, 184, 0.24);
+  border-color: rgb(119, 0, 255) ;
+}
+.list-boxs .standard .btn {
+  background: rgba(238, 130, 184, 0.24);
+  border-color: rgb(0, 255, 13) ;
+}
+.list-boxs .premium .btn {
+  background: rgba(238, 130, 184, 0.24);
+  border-color: gold ;
+}
+.list-boxs .premium .btn:hover {
+  box-shadow: 0 0 25px 0 rgb(255, 238, 0);
+}
+.list-boxs .standard .btn:hover {
+  box-shadow: 0 0 25px 0 rgb(0, 255, 0);
+}
+.list-boxs .starter .btn:hover {
+  box-shadow: 0 0 25px 0 rgb(89, 0, 255);
+}
+
+.new {
+  padding: 15px 29px;
+  color: rgba(238, 238, 238, 0.829);
+  border-radius: 50px;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  cursor: pointer;
+  float: center;
+  font-family: "GOST type B";
+
+  
+}
+.new:hover {
+   background: rgba(255, 255, 255, 0.205);;
+ box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.253);
+
+}
+.log {
+  position: absolute;
+  top: 20%;
+  right: 410px;
+}
+.ticket {
+  text-shadow:0px 0px 10px rgb(153, 209, 255)
+}
+

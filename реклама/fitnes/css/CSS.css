@@ -1,0 +1,93 @@
+
+body {
+	background-image: linear-gradient(-225deg, #d82c7c 0%, #ffc1f5 56%, #ff0022 100%);
+	width: 100%;
+	height: 100%;
+}
+
+.shapka {
+	text-align:center;
+	background-color:white;
+	display: flex;
+	border-radius: 50px;
+	font-family: Impact;
+	box-shadow: 0 0 38px 0 rgba(255, 255, 255, 0.938);
+
+
+}
+.shapka img {
+	margin-left: 20px;
+}
+
+nav {
+	width:100%;	
+	height:10%;
+	text-align:center;
+	font-family: Impact;
+
+}
+
+.left-side {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 640px;
+}
+.left {
+	width:150px;
+	height: 1000px;
+	background-color:orange;
+	font-family: Impact;
+	right: 5px;
+	
+
+	height: 100%;
+}
+
+.osnova {
+	width:100%
+}
+
+.footer1 {
+	position:absolute;
+	width:50%;
+	height:75px;
+	background-color:#B0C4DE;
+	bottom:0px;
+	font-family: Impact;
+	position: fixed;
+	height: 10%;
+}
+
+.footer2 {
+	position:absolute;
+	width:50%;
+	height:75px;
+	background-color:#696969;
+	right:0px;
+	bottom:0px;
+	font-family: Impact;
+	position: fixed;
+	height: 10%;
+}
+
+.new {
+   padding: 15px 29px;
+   color: #333;
+   border-radius: 50px;
+   font-size: 50px;
+   background-color: rgba(0, 0, 0, 0);
+   border: 0px;
+   cursor: pointer;
+   float: center;
+   font-family: Impact;
+   
+}
+.new:hover {
+    background: rgba(255, 255, 255, 0.205);;
+	box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.253);
+	
+	
+
+ }
+
+ 

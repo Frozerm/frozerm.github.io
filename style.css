@@ -1,0 +1,279 @@
+
+.shapka {
+	position: static;
+	display: flex;
+	background-color: #272727;
+	border-radius: 30px;
+}
+
+.add {
+	width: 180px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	background-color: #272727;
+	border-radius: 30px;
+	left: 0;
+	padding-top: 40px;
+}
+.add .reklama {
+	width: 120px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #2d2d2d;
+	color: #FFFACD;
+
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+
+	display: block;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	
+}
+a:visited {
+	color: #FFFACD;
+}
+.reklama a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.nazvanie {
+	font-family: "Colonna MT";
+	font-size: 70px;
+	margin:25px;
+	display: table-cell;
+	color: #FFFACD;
+	outline: none;
+}
+
+.btn-menu {
+	width: 150px;
+	height: 50px;
+	margin-top: 33px;
+	margin-left: 6px;
+
+	display: table-cell;
+	font-family: "Britannic";
+	border-radius: 30px;
+	background: #272727;
+	color: #FFFACD;
+	border: 0;
+	outline: none;
+	font-size: 125%;
+}
+.btn-menu:hover {
+	background: #363636;
+}
+.btn-menu:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.btn-menu img {
+	margin-top: 7px;
+}
+
+.hot-lenta {
+	display: flex;
+	margin-top: -50px;
+	margin-left: 190px;
+	flex-direction: row;
+	white-space: nowrap;
+	background-color: #272727;
+	border-radius: 30px;
+}
+
+.text-hot {
+	text-align: center;
+	background-color: #272727;
+	font-family: "Britannic";
+	font-size: 50px;
+	color: #FFFACD;
+	border-radius: 30px;
+	margin-left: 190px;
+}
+
+.tovar {
+	width: 180px;
+	height: 260px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	background-color: #2d2d2d;
+	border-radius: 30px;
+}
+.tovar .text-tovar {
+	margin: auto;
+	text-align: center;
+	color: blanchedalmond;
+	font-family: "Britannic";
+	background-color: #363636;
+	border-radius: 10px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 20px;
+}
+
+.tovar-img {
+	width: 130px;
+	height: 130px;
+	margin: auto;
+}
+
+.text-map {
+	text-align: center;
+	background-color: #272727;
+	font-family: "Britannic";
+	font-size: 50px;
+	color: #FFFACD;
+	border-radius: 30px;
+	margin: auto;
+}
+.map-lenta{
+	width: 950px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	background-color: #272727;
+	border-radius: 30px;
+
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+.map-img {
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	object-fit: contain;
+	border-radius: 6px;
+	object-position: bottom;
+}
+.map-lenta p {
+	font-family: "Britannic";
+	color: blanchedalmond;
+}
+
+.btn-buy {
+	width: 50px;
+	height: 25px;
+	margin:auto;
+	font-family: "Britannic";
+	color: blanchedalmond;
+	border-radius: 6px;
+	background: #363636;
+	border: 0;
+	outline: none;
+	font-size: 130%;
+}
+.btn-buy:hover {
+	background: #363636;
+}
+.btn-buy:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.answer {
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: "Britannic";
+	color: #BC8F8F;
+	border-radius: 30px;
+	font-size: 25px;
+	background-color: #272727;
+}
+.qes {
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: "Britannic";
+	color: blanchedalmond;
+	border-radius: 30px;
+	font-size: 25px;
+	background-color: #363636;
+}
+
+.text-form {
+	text-align: center;
+	background-color: #272727;
+	font-family: "Britannic";
+	font-size: 50px;
+	color: #FFFACD;
+	border-radius: 30px;
+	
+	margin-top: 50px;
+}
+.buy-form{
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	background-color: #272727;
+	border-radius: 30px;
+
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+
+}
+.block-form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	background-color: #2d2d2d;
+	border-radius: 30px;
+}
+.buy-form p {
+	color: #FFFACD;
+	font-family: "Britannic";
+	font-size: 30px;
+	margin-left: 40%
+}
+
+.btn-buy-forma{
+	margin-left: 30%;
+}
+.btn-buy-form {
+	font-family: "Britannic";
+	border-radius: 30px;
+	background: #363636;
+	color: #FFFACD;
+	border: 0;
+	outline: none;
+	font-size: 30px;
+	margin-left: auto;
+	margin-top: 10px;
+}
+.btn-buy-form:hover {
+	background: #363636;
+}
+.btn-buy-form:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}

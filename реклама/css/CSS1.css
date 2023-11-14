@@ -1,0 +1,32 @@
+
+}
+.shapka img {
+	margin-left: 20px;
+}
+
+nav {
+	width:100%;	
+	height:10%;
+	text-align:center;
+	font-family: Impact;
+	
+
+}
+
+
+.new {
+   padding: 15px 29px;
+   color: rgba(0, 0, 0, 0.829);
+   border-radius: 50px;
+   font-size: 50px;
+   background-color: rgba(0, 0, 0, 0);
+   border: 0px;
+   cursor: pointer;
+   float: center;
+   font-family: Impact;
+   
+}
+.new:hover {
+    background: rgba(0, 0, 0, 0.205);;
+	box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.253);
+ }
